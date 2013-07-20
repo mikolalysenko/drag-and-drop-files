@@ -1,0 +1,32 @@
+{
+  "name": "drag-and-drop-files",
+  "version": "0.0.1",
+  "description": "Handle file drag and drop events without all the Yak shaving",
+  "main": "ondrop.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/drag-and-drop-files.git"
+  },
+  "keywords": [
+    "file",
+    "drag",
+    "drop",
+    "event",
+    "data",
+    "transfer",
+    "html5"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "46f333643f2e3a4ec4cf2b87db8c05214ab682aa",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/drag-and-drop-files/issues"
+  }
+}

@@ -3,7 +3,7 @@
 function handleDrop(callback, event) {
   event.stopPropagation()
   event.preventDefault()
-  callback(event.dataTransfer.files)
+  callback(Array.prototype.slice.call(event.dataTransfer.files))
 }
 
 function killEvent(e) {

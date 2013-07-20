@@ -20,7 +20,7 @@ require("drag-and-drop-files")(dropTarget, function(files) {
 Hooks a listener for a file data transfer event.
 
 * `element` is the DOM element to listen for file events on
-* `callback(files)` is a callback that gets fired when the files are dropped on to it.  This is just the contents of the `event.dataTransfer.files` property of the drag and drop event.
+* `callback(files)` is a callback that gets fired when the files are dropped on to it.  The argument `files` is an array of all the file objects that were dragged onto the element.
 
 
 ## Credits
